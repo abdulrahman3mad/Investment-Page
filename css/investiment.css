@@ -1,0 +1,183 @@
+/*start main style*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 1500px; }
+
+/*end main style*/
+/* start navbar style*/
+.navbar {
+  padding: 0 !important; }
+
+.navbar-collapse {
+  margin-left: 20px; }
+
+.navbar .list-items li a {
+  color: #239BCB !important;
+  font-size: 20px !important; }
+
+.navbar .list-items li.active a {
+  color: #FBD8A0 !important; }
+
+.navbar .list-items li a:hover {
+  color: #FBD8A0 !important; }
+
+/* end navbar style*/
+/* start slider style*/
+.slider .colored-part {
+  background-color: #FBD8A0;
+  min-height: 450px;
+  overflow: hidden;
+  padding: 100px 80px;
+  color: white; }
+  .slider .colored-part h1 {
+    font-size: 50px;
+    margin-bottom: 15px; }
+  .slider .colored-part p {
+    color: white; }
+.slider .photo-part {
+  background-image: url("../images/Cover.jpg");
+  background-size: cover; }
+
+/* end slider style*/
+/*start questions style*/
+.question-part {
+  height: 500px;
+  padding: 100px 0;
+  width: 100%; }
+
+.question-section-image {
+  background-image: url("../images/question.png");
+  background-size: cover;
+  position: absolute;
+  top: 500px;
+  left: 900px;
+  height: 800px;
+  width: 500px;
+  opacity: 0.3; }
+
+.question-part .about {
+  margin-bottom: 60px; }
+
+.question-part h2 {
+  color: #239BCB;
+  margin-bottom: 20px; }
+
+.question-part p {
+  color: #9B9696; }
+
+.question-part span {
+  margin-top: 10px;
+  color: #FBD8A0; }
+
+.question-part span:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+  color: #239BCB; }
+
+.question-part span:hover {
+  color: #f3c883; }
+
+/*end questions style*/
+/*start PE_vs_VC*/
+.PE_vs_VC {
+  background-color: #F6F6F6;
+  margin-top: 280px;
+  padding: 100px 0; }
+  .PE_vs_VC h3 {
+    color: #239BCB;
+    margin-bottom: 30px; }
+  .PE_vs_VC h2 {
+    color: #239BCB;
+    font-size: 40px; }
+    .PE_vs_VC h2 span {
+      color: red; }
+  .PE_vs_VC .PE_VC_cards {
+    margin-top: 50px; }
+    .PE_vs_VC .PE_VC_cards .card .card-title {
+      color: #239BCB; }
+    .PE_vs_VC .PE_VC_cards .card span {
+      background-color: #f6cb85;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer; }
+    .PE_vs_VC .PE_VC_cards .VC_card {
+      margin-top: 30px; }
+    .PE_vs_VC .PE_VC_cards .VC_card p:nth-of-type(2) {
+      margin-top: 50px; }
+
+/*end PE_vs_VC*/
+/*start career style*/
+.careers_PE_VC {
+  margin-top: 150px;
+  padding: 100px 0;
+  background-color: #F6F6F6; }
+  .careers_PE_VC .card {
+    width: 350px;
+    margin-top: 40px; }
+  .careers_PE_VC h2 {
+    color: #239BCB;
+    margin-bottom: 20px; }
+  .careers_PE_VC .card-body h4 {
+    margin-bottom: 20px; }
+  .careers_PE_VC .card-body {
+    box-shadow: 0 2px 2px #d1cdcd, 0 2px 2px #d1cdcd; }
+  .careers_PE_VC .card-title {
+    font-weight: bold;
+    margin-bottom: 0; }
+
+.careers_PE_VC .card h4 {
+  color: #239BCB; }
+
+.careers_PE_VC .card li:nth-child(even) {
+  background-color: #239BCB;
+  color: white; }
+
+.careers_PE_VC .card span {
+  color: #FBD8A0;
+  font-weight: bold; }
+
+/*end career style*/
+/*start contact us*/
+.contact_us {
+  padding: 40px 0; }
+  .contact_us h2 {
+    color: #239BCB;
+    font-size: 40px;
+    margin-bottom: 40px; }
+  .contact_us .content {
+    font-size: 20px;
+    margin-top: 50px; }
+    .contact_us .content li {
+      margin-bottom: 40px; }
+  .contact_us .contact-img {
+    background-image: url("../images/contact-us.svg");
+    background-size: cover;
+    height: 400px; }
+
+/*end contact_us style*/
+/*start footer style*/
+.footer {
+  border-top: 1px solid #9B9696;
+  padding: 40px 0; }
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.6; }
+
+/*end footer style*/
+/* special framework*/
+p {
+  color: #837f7f; }
+
+/* special framework*/
+
+/*# sourceMappingURL=investiment.css.map */
